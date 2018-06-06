@@ -1,0 +1,25 @@
+Name: NAIP on AWS
+Description: Four-band multispectral imagery at 0.5-1m spatial recolution.  This "leaf-on" imagery, collected during the agricultural growing seasons, covers the Continental U.S.  More details [here](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/).
+Documentation: https://docs.opendata.aws/aws-naip/readme.html
+Contact: https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/
+UpdateFrequency: Annual
+Tags:
+  - aws-pds
+  - earth observation
+  - aerial imagery
+  - gis
+  - natural resource
+  - regulatory
+  - sustainability
+License: |
+  Public Domain with Attribution
+Resources:
+  - Description: Imagery and metadata in a Requester Pays bucket
+    ARN: arn:aws:s3:::aws-naip
+    Region: us-west-2
+    Type: S3 Bucket
+DataAtWork:
+  - Title: VoyagerSearch showing off Batch + NAIP
+    URL: https://www.voyagersearch.com/using-aws-batch-to-generate-image-thumbnails-for-voyager
+    AuthorName: Voyager
+    AuthorURL: https://www.voyagersearch.com/
